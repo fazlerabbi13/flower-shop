@@ -1,11 +1,11 @@
 /* header styles */
 .header-section{
-    height: 800px;
+    height: 0 auto;
     display: flex;
     justify-content: space-between;
     align-items: center;
     background: rgba(229, 84, 115, 0.10);
-    padding: 0 200px 0 200px;
+    padding: 0 200px  200px;
 }
 .header-heading{
     color: #272727;
@@ -159,7 +159,6 @@
     padding-right: 430px;
  }
  .sign-up-button{
-
     padding: 20px 43px;
     gap: 10px;
     border-radius: 8px;
@@ -199,17 +198,79 @@
     height: 396px;
  }
  /* subscribe section */
+ .subscribe{
+    position: relative;
+    text-align: center;
+    color: white;
+    margin-left:09px;
+    margin-right: 09px;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    border-radius: 8px;
+ }
+ .subscribe-text{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+ }
+ .subscribe-heading{
+    color: #272727;
+    text-align: center;
+    font-family: Lato;
+    font-size: 50px;
+    font-weight: 800;
+ }
+ .small{
+    display: block;
+    align-items: center;
+    margin-bottom: 80px;
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size:25px;
+    font-weight: 500;
+ }
+ .input{
+    width: 700px;
+    height:64px;
+    border-radius: 8px;
+    background: #FFF;
+    border: 0;
+    margin-bottom: 90px;
+ }
+ .button{
+    display: flex;
+    width: 200px;
+    height:64px;
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 700;
+    border-radius: 8px;
+    border: 0;
+    background: #E55473;
+    margin-bottom: 90px;
+    display: inline;
+ }
+ .button-type{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    text-decoration: none;
+ }
  /* .subscribe{
     text-align: center;
-    width: 1400px;
-    height:200px;
-    background-color: #E55473;
-    padding-top:100px ;
-    padding-bottom:0px ;
+    width: 1440px;
+    height: 449px;
+    margin-left: 150px;
+    margin-right: 150px;
+    margin-bottom:100px;
     margin-top: 100px;
-    margin-bottom: 100px;
-    margin-left: 330px;
- 5 */
+ } */
+/* .subscribe-text{
+    display: block;
+    justify-content: center;
+} */
+
  /* footer-section */
  .footer{
     width: 2100px;
