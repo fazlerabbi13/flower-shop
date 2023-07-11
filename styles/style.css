@@ -1,11 +1,9 @@
 /* header styles */
 .header-section{
-    height: 0 auto;
     display: flex;
-    justify-content: space-between;
-    align-items: center;
+    width: 2000px;
+    height: 800px;
     background: rgba(229, 84, 115, 0.10);
-    padding: 0 200px  200px;
 }
 .header-heading{
     color: #272727;
@@ -34,7 +32,8 @@
     padding: 100px;
 }
 .header-image{
-    padding-top: -15px;
+    padding-bottom:100px;
+    padding-left: 300px;
 }
 /* rounded features styles */
 .features-title h3{
