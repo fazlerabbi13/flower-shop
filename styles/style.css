@@ -1,0 +1,247 @@
+/* header styles */
+.header-section{
+    height: 800px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: rgba(229, 84, 115, 0.10);
+    padding: 0 200px 0 200px;
+}
+.header-heading{
+    color: #272727;
+    font-size: 70px;
+    font-weight: 700;
+}
+.header-paragraph{
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    padding-bottom:10px;
+}
+.header-button{
+    display: inline-flex;
+    padding: 20px 40px;
+    gap: 10px;
+    border-radius: 8px;
+    border: 0;
+    background: #E55473;
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 700;
+}
+.header-description{
+    padding: 100px;
+}
+.header-image{
+    padding-top: -15px;
+}
+/* rounded features styles */
+.features-title h3{
+    color: #272727;
+    font-size: 40px;
+    font-weight: 800;
+}
+.features-title p{
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+}
+.img-description{
+    text-align: center;
+    color: #272727;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 600px;
+    text-decoration-line: underline;
+}
+.box-1{
+    width: 390px;
+    height: 468px;
+    background: rgba(167, 33, 98, 0.15);
+    border-top-right-radius: 190px;
+    border-top-left-radius:190px ;
+}
+.box-2{
+    width: 390px;
+    height: 468px;
+    background: url(<path-to-image>), lightgray 50% / cover no-repeat;
+    border-top-right-radius: 190px;
+    border-top-left-radius:190px ;
+}
+.box-3{
+    width: 390px;
+    height: 468px;
+    background: rgba(71, 125, 17, 0.15);
+    border-top-right-radius: 190px;
+    border-top-left-radius:190px ;
+}
+.rounded-box{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 0px;
+    margin: 300px;
+}
+.rounded-one{
+    padding-top: 40px;
+}
+.rounded-two{
+    width: 300px;
+    padding-top: 90px;
+}
+.rounded-three{
+    height: 468px;
+    padding-bottom: 50px;
+}
+.image-feature{
+    display:block ;
+    align-items: center;
+    justify-content: center;
+}
+.features-title{
+    text-align: center;
+    padding-top: 60px;
+}
+/* support section */
+.support{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    background-color: #E55473;
+    margin: auto;
+    padding: 10px 10px ;
+    width: 1400px;
+    height: 220px;
+    border-radius: 8px;
+    color: rgba(39, 39, 39, 0.80);
+    text-align: center;
+    font-family: Lato;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 35px;
+    background: rgba(39, 39, 39, 0.05);
+}
+.support-one{
+    padding-left: 210px;
+}
+.support-three{
+    padding-right: 210px;
+}
+/* sign-up section style */
+ .sign-up{
+    width: 2200px;
+    height: 620px;
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 8px;
+    background: rgba(229, 84, 115, 0.05);
+ }
+ .sign-up-heading{
+    color: #272727;
+    font-size: 40px;
+    font-weight: 800;
+ }
+ .short-color{
+    color:#E55473
+ }
+ .sign-up-description{
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 20px;
+    font-weight: 400;
+ }
+ .image{
+    padding-right: 430px;
+ }
+ .sign-up-button{
+
+    padding: 20px 43px;
+    gap: 10px;
+    border-radius: 8px;
+    background: #E55473;
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 700;
+    border: 0;
+ }
+ /* instagram-section style */
+ .instagram-element{
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      padding-left: 280px; 
+      padding-right: 280px; 
+ }
+ .about-instagram-section{
+    margin-bottom: 60px;
+ }
+ .for-instagram{
+    text-align: center;
+    margin-top: 120px;
+ }
+ .heading-instagram{
+    color: #272727;
+    font-size: 40px;
+    font-weight: 800;
+ }
+ .about-benifit{
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 19px;
+    font-weight: 400;
+ }
+ .box{
+    width: 342px;
+    height: 396px;
+ }
+ /* subscribe section */
+ /* .subscribe{
+    text-align: center;
+    width: 1400px;
+    height:200px;
+    background-color: #E55473;
+    padding-top:100px ;
+    padding-bottom:0px ;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-left: 330px;
+ 5 */
+ /* footer-section */
+ .footer{
+    width: 2100px;
+    height: 449px;
+    background: #111010;
+    text-align: center;
+    color:#FFFFFF ;
+    padding-top: 130PX;
+ }
+ .footer-heading{
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 800;
+ }
+.color-part{
+    color: #E55473;
+    font-size: 60px;
+    font-weight: 800;
+}
+.footer-paragraph{
+    color: rgba(255, 255, 255, 0.90);
+    text-align: center;
+    font-size: 22px;
+    font-weight: 500;
+}
+.footer-small{
+    color: rgba(255, 255, 255, 0.40);
+    text-align: center;
+    font-family: Lato;
+    font-size:22px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
